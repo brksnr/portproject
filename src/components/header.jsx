@@ -15,6 +15,17 @@ export function Header() {
             <p>|</p>
             <p>TÜRKÇE'YE GEÇ</p>
         </div>
+        <div className="container-links">
+            <div className="container-name">
+             <img src="./src/images/ellipse.png"/>
+             <p className="letter">B</p> 
+            </div>
+            <div className="container-hire">
+                <p>Skills</p>   
+                <p>Projects</p>   
+                <button>Hire me</button>   
+            </div>   
+        </div>
     </section>
     )
 }

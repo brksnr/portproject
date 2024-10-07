@@ -2,22 +2,238 @@
   border: 1px solid black;
 }
 */
+
+body {
+  display: flex;
+  justify-content: center;
+  
+}
+
 .header {
-  padding-top: 1rem;
+padding-top: 1rem;
 }
 
 .container-mode {
-  display: flex;
-  justify-content: end;
-  background-color: red;
-  max-width: 90%;
-  gap: 1rem
+display: flex;
+justify-content: end;
+max-width: 100%;
+gap: 1rem;
 }
+.container-name {
+  position: relative;
+  display: inline-block;
+}
+.letter {
+  position: absolute;
+  top: 12%;
+  left: 52%;
+  transform: translate(-50%, -50%) rotate(30deg);
+  font-size: 24px; /* Harfin boyutunu ayarlayın */
+  font-weight: bold;
+  color: #7B61FF; /* Resmin üstündeki harfin rengine karar verin */
+}
+
+
 .dark-mode {
-  display: flex;
-  align-items: center;
-  gap: .5rem
+display: flex;
+align-items: center;
+gap: .5rem;
+p{
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 18.15px;
+letter-spacing: 0.1em;
+text-align: left;
+color: #777777;
 }
+}
+.container-links {
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+align-items: center;
+margin-top: 1.5rem;
+}
+
+.container-hire {
+display: flex;
+gap: 5rem;
+button {
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #3730A3;
+background-color: white;
+}
+p {
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+color: #6B7280;
+}
+}
+
+.container-hire button {
+width: Hug (131px)px;
+height: Hug (52px)px;
+top: 92px;
+left: 1135.46px;
+padding: 12px 32px 12px 32px;
+gap: 10px;
+border-radius: 6px;
+border: 1px;
+opacity: 0px;
+border: 1px solid #3730A3
+}
+
+.hero {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  }
+
+.hero-img img {
+width: 100%;
+height: 375px;
+border-radius: 18px;
+}
+
+.isim {
+width: 50%;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #4338CA;
+display: flex;
+gap:1rem;
+align-items: center;
+img{
+  width: 7rem;
+  height: 0px;
+  border: 1px solid #3730A3
+}
+}
+
+.hire-button {
+width: Hug (131px)px;
+height: Hug (52px)px;
+padding: 12px 32px 12px 32px;
+gap: 10px;
+border-radius: 6px;
+opacity: 0px;
+background: #3730A3;
+color: white;
+font-family: Inter;
+font-size: 15px;
+}
+.linkedin-button {
+  width: Hug (139px)px;
+height: Hug (52px)px;
+padding: 12px 20px 12px 12px;
+gap: 10px;
+border-radius: 6px;
+border: 1px;
+opacity: 0px;
+color: #3730A3;
+border: 1px solid #3730A3;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+i {
+  width: 30px;
+  }
+}
+.github-button {
+width: Hug (127px)px;
+height: Hug (52px)px;
+padding: 12px 20px 12px 12px;
+gap: 10px;
+border-radius: 6px;
+opacity: 0px;
+border: 1px #3730A3;
+color: #3730A3;
+border: 1px solid #3730A3;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+i {
+width: 30px;
+}
+}
+.hero-left {
+  width: 47%;
+}
+.hero-left h1 {
+font-family: Inter;
+font-size: 72px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+}
+.hero-left p {
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #6B7280;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: .7em;
+  margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
