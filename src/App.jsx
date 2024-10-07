@@ -1,4 +1,5 @@
 
+import { Footer } from './components/footer'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
 import  { Profile }  from './components/profile'
@@ -15,7 +16,9 @@ function App() {
       <Skills/>
       <Profile/>
       <Projects/>
+      <Footer/>
    </>
+   
   )
 }
 

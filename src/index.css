@@ -6,6 +6,8 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* body bitti */
@@ -412,7 +414,61 @@ border-bottom: 1.5px solid#3730A3;
 .project-container{
   width: 21%;
 }
+/* projects bitti*/
 
+.footer {
+  width: 100%;
+border:1px solid black;
+padding-bottom: 10rem;
+margin-top: 10rem;
+background-color: #F9F9F9;
+h1{
+font-family: Inter;
+font-size: 42px;
+font-weight: 600;
+line-height: 52.5px;
+text-align: left;
+color: #1F2937;
+  }
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.websites{
+  display: flex;
+  gap: 1rem;
+  a{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0.01em;
+text-align: left;
+  }
+}
+.email{
+display: flex;
+align-items: center;
+.email-sahis{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #AF0C48;
+  border-bottom: 1.5px solid #AF0C48;
+}
+}
+.github{
+  color: #00AB6B;
+}
+.linkedin{
+  color: #0077B5;
+}
+.personal{
+  color: #0A0A14;
+}
 
 
 

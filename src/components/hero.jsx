@@ -1,6 +1,6 @@
 export function Hero() {
     return (
-        <>
+        
         <div className="hero">
         
         <div className="hero-left">
@@ -22,6 +22,6 @@ export function Hero() {
         <img src="./src/images/almina.png"/>
         </div>
         </div>
-        </>     
+           
     )
 }
