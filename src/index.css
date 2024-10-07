@@ -341,6 +341,78 @@ color: #1F2937;
 
 /* profile bitti*/
 
+.projects{
+max-width: 1440px;
+height: 575px;
+top: 1407px;
+left: 126px;
+gap: 0px;
+border: 1px;
+h1{
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 48px; 
+}
+h3{
+font-family: Inter;
+font-size: 30px;
+font-weight: 500;
+line-height: 28px;
+color: #4338CA;
+}
+p{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.5px;
+text-align: left;
+color: #6B7280;
+}
+}
+.projects-list{
+width: 100%;
+height: Hug (449px)px;
+gap: 18px;
+display: flex;
+justify-content: space-between;
+}
+.techStach{
+display: flex;
+justify-content: space-between;
+width: 60%;
+gap: 6px;
+opacity: 0px;
+button{
+padding: 6px 18px 7px 18px;
+border-radius: 4px;
+border: 1px;
+border: 1px solid #3730A3;
+background-color: white;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: -0.05em;
+color: #3730A3;
+}
+}
+.details{
+display: flex;
+justify-content: space-between;
+p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+color: #3730A3;
+border-bottom: 1.5px solid#3730A3;
+  }
+}
+.project-container{
+  width: 21%;
+}
+
 
 
 
