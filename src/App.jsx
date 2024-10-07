@@ -12,6 +12,7 @@ function App() {
       <Header/> 
       <Hero/>
       <Skills/>
+      <Profile/>
    </>
   )
 }
