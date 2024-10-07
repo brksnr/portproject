@@ -6,8 +6,9 @@
 body {
   display: flex;
   justify-content: center;
-  
 }
+
+/* body bitti */
 
 .header {
 padding-top: 1rem;
@@ -32,7 +33,6 @@ gap: 1rem;
   font-weight: bold;
   color: #7B61FF; /* Resmin üstündeki harfin rengine karar verin */
 }
-
 
 .dark-mode {
 display: flex;
@@ -88,6 +88,8 @@ border: 1px;
 opacity: 0px;
 border: 1px solid #3730A3
 }
+
+/* header bitti */
 
 .hero {
   max-width: 1440px;
@@ -192,8 +194,79 @@ color: #6B7280;
   margin-top: 2.5rem;
 }
 
+/* hero bitti */
 
-
+.skills {
+max-width: 1440px;
+margin-top: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-bottom: 3rem;
+margin-top: 7rem;
+h1{
+  margin: 0;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  color: #1F2937;
+    }
+}
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+.js {
+width: 23%;
+p{
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+color: #6B7280;
+}
+h3{
+font-family: Inter;
+font-size: 30px;
+font-weight: 500;
+line-height: 28px;
+color: #4338CA;
+}
+}
+.react {
+  width: 23%;
+  p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6B7280;
+    }
+    h3{
+      font-family: Inter;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 28px;
+      color: #4338CA;
+      }
+}
+.node {
+  width: 23%;
+  p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6B7280;
+    }
+    h3{
+      font-family: Inter;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 28px;
+      color: #4338CA;
+      }
+}
 
 
 
