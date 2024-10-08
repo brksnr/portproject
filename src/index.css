@@ -9,6 +9,11 @@ body {
   padding: 0;
 }
 
+.body-dark-mode{
+  background-color: #252128;
+}
+
+
 /* body bitti */
 /*
 .header {
@@ -42,22 +47,20 @@ gap: 1rem;
   color: #7B61FF; 
 }
 */
+/*
+asdadsa
+width: Hug (131px)px;
+height: Hug (52px)px;
+top: 92px;
+left: 1135.46px;
+padding: 12px 32px 12px 32px;
+gap: 10px;
+border-radius: 6px 0px 0px 0px;
+border: 1px 0px 0px 0px;
 
-.dark-mode {
-display: flex;
-align-items: center;
-gap: .5rem;
-p{
-font-family: Inter;
-font-size: 15px;
-font-weight: 700;
-line-height: 18.15px;
-letter-spacing: 0.1em;
-text-align: left;
-color: #777777;
-}
-}
 
+adssad
+*/
 /*
 .container-links {
 display: flex;
