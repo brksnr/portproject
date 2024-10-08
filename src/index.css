@@ -1,41 +1,47 @@
-/* * {
-  border: 1px solid black;
-}
-*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
+  display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
 
 /* body bitti */
-
+/*
 .header {
   padding-top: 1rem;
   margin-right: 13rem;
   margin-left: 14.3rem;
 }
-
+*/
+/*
 .container-mode {
 display: flex;
 justify-content: end;
 max-width: 100%;
 gap: 1rem;
 }
+*/
+/*
 .container-name {
   position: relative;
   display: inline-block;
 }
+  */
+/*
 .letter {
   position: absolute;
   top: 12%;
   left: 52%;
-  transform: translate(-50%, -50%) rotate(30deg);
-  font-size: 24px; /* Harfin boyutunu ayarlayın */
+  transform: translate(50%, 50%) rotate(30deg);
+  font-size: 24px; 
   font-weight: bold;
-  color: #7B61FF; /* Resmin üstündeki harfin rengine karar verin */
+  color: #7B61FF; 
 }
+*/
 
 .dark-mode {
 display: flex;
@@ -51,6 +57,8 @@ text-align: left;
 color: #777777;
 }
 }
+
+/*
 .container-links {
 display: flex;
 justify-content: space-between;
@@ -58,18 +66,20 @@ max-width: 100%;
 align-items: center;
 margin-top: 1.5rem;
 }
-
+*/
+/*
 .container-hire {
 display: flex;
 gap: 5rem;
+;
 button {
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 28px;
-text-align: left;
-color: #3730A3;
-background-color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #3730A3;
+  background-color: white;
 }
 p {
 font-family: Inter;
@@ -78,7 +88,8 @@ font-weight: 500;
 color: #6B7280;
 }
 }
-
+*/
+/*
 .container-hire button {
 width: Hug (131px)px;
 height: Hug (52px)px;
@@ -87,13 +98,13 @@ left: 1135.46px;
 padding: 12px 32px 12px 32px;
 gap: 10px;
 border-radius: 6px;
-border: 1px;
-opacity: 0px;
 border: 1px solid #3730A3
 }
+*/
+
 
 /* header bitti */
-
+/*
 .hero {
   margin-right: 13rem;
   margin-left: 14.3rem;
@@ -102,20 +113,21 @@ border: 1px solid #3730A3
   align-items: center;
   margin-top: 5rem;
   }
-
+*/
+/*
 .hero-img img {
 width: 100%;
 height: 375px;
 border-radius: 18px;
 }
-
+*/
+/*
 .isim {
 width: 50%;
 font-family: Inter;
 font-size: 20px;
 font-weight: 500;
 line-height: 28px;
-text-align: left;
 color: #4338CA;
 display: flex;
 gap:1rem;
@@ -126,7 +138,8 @@ img{
   border: 1px solid #3730A3
 }
 }
-
+*/
+/*
 .hire-button {
 width: Hug (131px)px;
 height: Hug (52px)px;
@@ -139,14 +152,11 @@ color: white;
 font-family: Inter;
 font-size: 15px;
 }
+
+
 .linkedin-button {
-  width: Hug (139px)px;
-height: Hug (52px)px;
 padding: 12px 20px 12px 12px;
-gap: 10px;
 border-radius: 6px;
-border: 1px;
-opacity: 0px;
 color: #3730A3;
 border: 1px solid #3730A3;
 font-family: Inter;
@@ -172,10 +182,14 @@ font-weight: 500;
 i {
 width: 30px;
 }
-}
+
+*/
+/*
 .hero-left {
   width: 47%;
 }
+  */
+/*
 .hero-left h1 {
 font-family: Inter;
 font-size: 72px;
@@ -183,6 +197,8 @@ font-weight: 700;
 line-height: 72px;
 text-align: left;
 }
+*/
+/*
 .hero-left p {
 font-family: Inter;
 font-size: 18px;
@@ -191,15 +207,16 @@ line-height: 28px;
 text-align: left;
 color: #6B7280;
 }
-
+*/
+/*
 .hero-buttons {
   display: flex;
   gap: .7em;
   margin-top: 2.5rem;
 }
-
+*/
 /* hero bitti */
-
+/*
 .skills {
   margin-right: 13rem;
   margin-left: 14.3rem;
@@ -217,10 +234,14 @@ h1{
   color: #1F2937;
     }
 }
+    */
+    /*
 .skills-list {
   display: flex;
   justify-content: space-between;
 }
+  */
+  /*
 .js {
 width: 23%;
 p{
@@ -272,9 +293,9 @@ color: #4338CA;
       color: #4338CA;
       }
 }
-
+*/
 /* SKills bitti*/
-
+/*
 .profile {
   margin-right: 13rem;
   margin-left: 14.3rem;
@@ -282,6 +303,8 @@ font-family: Arial, sans-serif;
 display: flex;
 justify-content: space-between;
 }
+*/
+/*
 .profile h1 {
 color: #4338CA;
 font-family: Inter;
@@ -289,15 +312,22 @@ font-size: 30px;
 font-weight: 500;
 line-height: 28px;
 }
+*/
+/*
 .profile-details {
   display: flex;
   flex-direction: column; 
   width: 30%;
 }
+*/
+/*
 .profile-item {
   display: flex;
   justify-content: space-between;
 }
+  */
+
+ /* 
 .label {
 font-family: Inter;
 font-size: 18px;
@@ -307,6 +337,8 @@ letter-spacing: 0.01em;
 text-align: left;
 color: #000000;
 }
+*/
+/*
 .value {
 font-family: Inter;
 font-size: 18px;
@@ -316,6 +348,8 @@ letter-spacing: 0.01em;
 text-align: left;
 color: #000000;
 }
+*/
+/*
 .about-profile{
 margin-right: 20rem;
 margin-bottom: 5rem;
@@ -330,10 +364,12 @@ font-weight: 400;
 line-height: 27px;
 color: #6B7280;
 }
+
 }
+*/
+/*
 .hr{
 width: 1440px;
-border: 1px;
 border: 1px solid #BAB2E7
 }
 .special-profile {
@@ -345,17 +381,12 @@ line-height: 48px;
 text-align: left;
 color: #1F2937;
 }
-
+*/
 /* profile bitti*/
-
+/*
 .projects{
   margin-right: 13rem;
   margin-left: 14.3rem;
-height: 575px;
-top: 1407px;
-left: 126px;
-gap: 0px;
-border: 1px;
 h1{
 font-family: Inter;
 font-size: 48px;
@@ -380,21 +411,21 @@ color: #6B7280;
 }
 .projects-list{
 width: 100%;
-height: Hug (449px)px;
 gap: 18px;
 display: flex;
 justify-content: space-between;
 }
+*/
+/*flex justify-between gap-1.5 w-7/12*/
+/*
 .techStach{
 display: flex;
 justify-content: space-between;
 width: 60%;
 gap: 6px;
-opacity: 0px;
 button{
-padding: 6px 18px 7px 18px;
+padding: 6px 18px 6px 18px;
 border-radius: 4px;
-border: 1px;
 border: 1px solid #3730A3;
 background-color: white;
 font-family: Inter;
@@ -421,7 +452,7 @@ border-bottom: 1.5px solid#3730A3;
   width: 21%;
 }
 /* projects bitti*/
-
+/*
 .footer {
 width: 100%;
 padding-bottom: 10rem;
@@ -477,6 +508,16 @@ align-items: center;
 .personal{
   color: #0A0A14;
 }
+*/
+
+
+
+
+
+
+
+
+
 
 
 .switch {
