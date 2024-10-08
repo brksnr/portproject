@@ -1,16 +1,18 @@
+import { useDarkMode } from "../contexts/darkmodecontext"
+
 export function Header() {
-    
+    const {darkMode, toggleDarkMode} = useDarkMode();
 
 
     return (
-    <section className="header">
+    <section className={!darkMode ? "header" : "header"}>
         <div className="container-mode">
             <div className="dark-mode">
                 <label className="switch">
-                <input type="checkbox" />
+                <input type="checkbox" onClick={toggleDarkMode}/>
                 <span className="slider round"></span>
                 </label>
-                <p>DARK MODE</p>
+                {!darkMode ? <p>DARK MODE</p> : <p>LIGHT MODE</p>}
             </div>
             <p>|</p>
             <p>TÜRKÇE'YE GEÇ</p>

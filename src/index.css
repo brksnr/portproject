@@ -4,7 +4,6 @@
 */
 
 body {
-  display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -13,7 +12,9 @@ body {
 /* body bitti */
 
 .header {
-padding-top: 1rem;
+  padding-top: 1rem;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
 }
 
 .container-mode {
@@ -94,7 +95,8 @@ border: 1px solid #3730A3
 /* header bitti */
 
 .hero {
-  max-width: 1440px;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -199,7 +201,8 @@ color: #6B7280;
 /* hero bitti */
 
 .skills {
-max-width: 1440px;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
 margin-top: 3rem;
 display: flex;
 flex-direction: column;
@@ -273,7 +276,8 @@ color: #4338CA;
 /* SKills bitti*/
 
 .profile {
-max-width: 1440px;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
 font-family: Arial, sans-serif;
 display: flex;
 justify-content: space-between;
@@ -333,6 +337,7 @@ border: 1px;
 border: 1px solid #BAB2E7
 }
 .special-profile {
+margin-left:14.3rem;
 font-family: Inter;
 font-size: 48px;
 font-weight: 600;
@@ -344,7 +349,8 @@ color: #1F2937;
 /* profile bitti*/
 
 .projects{
-max-width: 1440px;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
 height: 575px;
 top: 1407px;
 left: 126px;
@@ -417,8 +423,7 @@ border-bottom: 1.5px solid#3730A3;
 /* projects bitti*/
 
 .footer {
-  width: 100%;
-border:1px solid black;
+width: 100%;
 padding-bottom: 10rem;
 margin-top: 10rem;
 background-color: #F9F9F9;
@@ -429,12 +434,15 @@ font-weight: 600;
 line-height: 52.5px;
 text-align: left;
 color: #1F2937;
-  }
+margin-left: 14.3rem;
+padding-top:7rem;
+}
 }
 .links {
   display: flex;
   justify-content: space-between;
-  padding: 0px 20px;
+  margin-right: 13rem;
+  margin-left: 14.3rem;
 }
 .websites{
   display: flex;
@@ -471,56 +479,13 @@ align-items: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 24px;
+  width: 70px;
+  height: 30px;
 }
 
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -528,42 +493,29 @@ align-items: center;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: #4731D3;
 }
-
 .slider:before {
   position: absolute;
   content: "";
   height: 16px;
   width: 16px;
-  left: 9px;
-  bottom: 4px;
-  background-color: white;
+  left: 6px;
+  bottom: 7px;
+  background-color: #FFE86E;
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 input:checked + .slider {
-  background-color: #19d122;
+  background-color: #3A3A3A;
 }
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  transform: translateX(42px);
+  position: absolute;
 }
-
-/* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 40px;
 }
-
 .slider.round:before {
   border-radius: 50%;
-}
+ }
