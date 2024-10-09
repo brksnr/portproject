@@ -1,7 +1,13 @@
 export const languagesData = {
     en : {
         header : {
-            
+          mode: "DARK MODE",
+          mode2: "LIGHT MODE",
+          skills: "Skills",
+          projects: "Projects",
+          hireMe: "Hire me",
+          ek: "'YE GEÇ",
+
         },
         hero : {
             name: "Berk Sener",
@@ -47,7 +53,12 @@ export const languagesData = {
     },
     tr: {       
         header : {
-            
+            mode: "KOYU TEMA",
+            mode2: "AÇIK TEMA",
+          skills: "Yetenekler",
+          projects: "Projeler",
+          hireMe: "İşe al",
+          ek: ""
             },
         hero : {  
             name: "Berk Sener",

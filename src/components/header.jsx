@@ -16,11 +16,11 @@ export function Header() {
                 <input type="checkbox" onClick={toggleDarkMode}/>
                 <span className="slider round"></span>
                 </label>
-                {!darkMode ? <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}>DARK MODE</p>
-                 : <p className={`font-[inter] text-sm font-bold leading-4 ${darkMode ? "text-[#D9D9D9]" : ""} text-[#777777]`}>LIGHT MODE</p>}
+                {!darkMode ? <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}>{text.mode}</p>
+                 : <p className={`font-[inter] text-sm font-bold leading-4 ${darkMode ? "text-[#D9D9D9]" : ""} text-[#777777]`}>{text.mode2}</p>}
             </div>
             <p>|</p>
-            <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}><a onClick={toggleLang}>{lang ? "ENGLISH" : "TÜRKÇE"}</a>'YE GEÇ</p>
+            <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}><a onClick={toggleLang}>{lang ? "SWITCH TO ENGLISH" : "TÜRKÇE"}</a>{text.ek}</p>
         </div>
         <div className="flex justify-between max-w-full align-center mt-6">
             
@@ -32,10 +32,10 @@ export function Header() {
             <div className="flex items-center gap-20">
             
            
-                <p className="font-inter text-lg font-medium text-[#6B7280]">Skills</p>   
-                <p className="font-inter text-lg font-medium text-[#6B7280]">Projects</p>   
+                <p className="font-inter text-lg font-medium text-[#6B7280]">{text.skills}</p>   
+                <p className="font-inter text-lg font-medium text-[#6B7280]">{text.projects}</p>   
                 <button className={`p-2 font-inter text-lg font-medium leading-7 text-[#3730A3] ${darkMode ? "bg-[white]" : ""}
-                border border-[#3730A3] rounded-md w-32`}>Hire me</button>   
+                border border-[#3730A3] rounded-md w-32`}>{text.hireMe}</button>   
             </div>   
         </div>
     </section>
