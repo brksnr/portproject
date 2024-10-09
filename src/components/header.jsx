@@ -1,9 +1,13 @@
+import { useChangeLang } from "../contexts/changeLangContext";
 import { useDarkMode } from "../contexts/darkmodecontext"
+import { languagesData } from "../s12context";
 
 export function Header() {
     const {darkMode, toggleDarkMode} = useDarkMode();
-
-
+    const { lang, toggleLang } = useChangeLang();
+    const currentLanguage = lang ? "tr" : "en";
+    const text = languagesData[currentLanguage].header;
+    
     return (
     <section className="pt-4 mr-52 ml-56">
         <div className="flex justify-end items-center max-w-full gap-4">
@@ -16,7 +20,7 @@ export function Header() {
                  : <p className={`font-[inter] text-sm font-bold leading-4 ${darkMode ? "text-[#D9D9D9]" : ""} text-[#777777]`}>LIGHT MODE</p>}
             </div>
             <p>|</p>
-            <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}>TÜRKÇE'YE GEÇ</p>
+            <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}><a onClick={toggleLang}>{lang ? "ENGLISH" : "TÜRKÇE"}</a>'YE GEÇ</p>
         </div>
         <div className="flex justify-between max-w-full align-center mt-6">
             
