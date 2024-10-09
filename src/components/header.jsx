@@ -12,7 +12,7 @@ export function Header() {
     <section className="pt-4 mr-52 ml-56">
         <div className="flex justify-end items-center max-w-full gap-4">
             <div className={`flex items-center gap-2`}>
-                <label className="switch">
+            <label className="switch">
                 <input type="checkbox" onClick={toggleDarkMode}/>
                 <span className="slider round"></span>
                 </label>
@@ -20,7 +20,7 @@ export function Header() {
                  : <p className={`font-[inter] text-sm font-bold leading-4 ${darkMode ? "text-[#D9D9D9]" : ""} text-[#777777]`}>{text.mode2}</p>}
             </div>
             <p>|</p>
-            <p className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}><a onClick={toggleLang}>{lang ? "SWITCH TO ENGLISH" : "TÜRKÇE"}</a>{text.ek}</p>
+            <p onClick={toggleLang} className={`font-[inter] text-sm font-bold leading-4 text-[#777777]`}><a onClick={toggleLang}>{lang ? "SWITCH TO ENGLISH" : "TÜRKÇE"}</a>{text.ek}</p>
         </div>
         <div className="flex justify-between max-w-full align-center mt-6">
             
