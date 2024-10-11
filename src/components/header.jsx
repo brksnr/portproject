@@ -7,6 +7,7 @@ export function Header() {
     const { lang, toggleLang } = useChangeLang();
     const currentLanguage = lang ? "tr" : "en";
     const text = languagesData[currentLanguage].header;
+    const links = "font-inter text-lg font-medium text-[#6B7280]";
     
     return (
     <section className="pt-4 mr-52 ml-56">
@@ -32,8 +33,8 @@ export function Header() {
             <div className="flex items-center gap-20">
             
            
-                <p className="font-inter text-lg font-medium text-[#6B7280]">{text.skills}</p>   
-                <p className="font-inter text-lg font-medium text-[#6B7280]">{text.projects}</p>   
+                <p className={links}>{text.skills}</p>   
+                <p className={links}>{text.projects}</p>   
                 <button className={`p-2 font-inter text-lg font-medium leading-7 text-[#3730A3] ${darkMode ? "bg-[white]" : ""}
                 border border-[#3730A3] rounded-md w-32`}>{text.hireMe}</button>   
             </div>   
