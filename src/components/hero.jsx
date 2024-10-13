@@ -15,7 +15,7 @@ export function Hero() {
         
         <div className="w-6/12">
             <div className={`flex w-1/2 font-[inter] w-1/2 font-medium ${darkMode ? "text-[#B7AAFF]" : ""} text-[#4338CA] gap-4 items-center`}>
-            <img className= {`w-28 h-0 border ${darkMode ? "border-[#B7AAFF]" : ""} border-[#3730A3]" src="./src/images/line.png`}/>
+            <img className= {`w-28 h-0 border ${darkMode ? "border-[#B7AAFF]" : ""} border-[#3730A3]" src="/images/line.png"`}/>
                 <a>Berk Şener</a>
             </div>
              <h1 className={`font-[inter] text-7xl my-10 ${darkMode ? "text-[#AEBCCF]" : ""}`}>{text.title}</h1>
@@ -30,7 +30,7 @@ export function Hero() {
             </div>
         </div>
         <div className="hero-img">
-        <img className="rounded-2xl max-w-full h-96" src="./src/images/almina.png"/>
+        <img className="rounded-2xl max-w-full h-96" src="/images/almina.png"/>
         </div>
         </div>
             

@@ -26,7 +26,7 @@ export function Header() {
         <div className="flex justify-between max-w-full align-center mt-6">
             
             <div className="relative inline-block">
-             <img src={` ${darkMode ? "./src/images/ellipse2.png" : "./src/images/ellipse.png"} `}/>
+             <img src={` ${darkMode ? "/images/ellipse2.png" : "/images/ellipse.png"} `}/>
              <p className={`absolute top-4 left-1/3 text-2xl rotate-12
              font-bold ${darkMode ? "text-[#8F88FF]" : ""} text-[#7B61FF]`}>B</p> 
             </div>

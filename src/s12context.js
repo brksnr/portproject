@@ -65,19 +65,19 @@ export const languagesData = {
                     projectTitle: "Workintech",
                     text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
                     site: "View Site",
-                    imageSrc: "./src/images/workintech.png"
+                    imageSrc: "/images/workintech.png"
                 },
                 {
                     projectTitle: "Random Jokes",
                     text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
                     site: "View Site",
-                    imageSrc: "./src/images/randomjokes.png"
+                    imageSrc: "/images/randomjokes.png"
                 },
                 {
                     projectTitle: "Journey",
                     text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
                     site: "View Site",
-                    imageSrc: "./src/images/journey.png"
+                    imageSrc: "/images/journey.png"
                 }
             ]
         },
@@ -149,19 +149,19 @@ export const languagesData = {
                         projectTitle: "Workintech",
                         text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
                         site: "View Site",
-                        imageSrc: "./src/images/workintech.png"
+                        imageSrc: "/images/workintech.png"
                     },
                     {
                         projectTitle: "Random Jokes",
                         text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
                         site: "View Site",
-                        imageSrc: "./src/images/randomjokes.png"
+                        imageSrc: "/images/randomjokes.png"
                     },
                     {
                         projectTitle: "Journey",
                         text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
                         site: "View Site",
-                        imageSrc: "./src/images/journey.png"
+                        imageSrc: "/images/journey.png"
                     }
                 ]
             },
