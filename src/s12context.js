@@ -17,35 +17,69 @@ export const languagesData = {
             gitHub: "Github",
             linkedin:"Linkedin",
         },
-        profile:{
+        profile: {
             title: "Profile",
-            born: "Date of Birth",
-            city: "Residence City",
-            education: "Education Status",
-            role: "Preferred Role",
             aboutMe: "About Me",
-            bornText: "24.03.1996",
-            cityText: "Ankara",
-            educationText: "Hacettepe University, Biology Bachelor's Degree, 2016",
-            roleText: "Frontend, UI",
             aboutMeText: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
-
+            items: [
+                {
+                    profileTitle:"Date of Birth",
+                    text:"24.03.1996"
+                },
+                {
+                    profileTitle:"Residence City",
+                    text:"Ankara"
+                },
+                {
+                    profileTitle:"Education Status",
+                    text:"Hacettepe University, Biology Bachelor's Degree, 2016"
+                },
+                {
+                    profileTitle:"Preferred Role",
+                    text:"Frontend, UI"
+                },
+            ]
         },
-        skills : { 
+        
+        skills: {
             title: "Skills",
-            textJs: "I can effectively use JavaScript to create dynamic web pages and manage user interactions. I have experience building the core components of modern web applications with JavaScript.",
-            textReact: "I am capable of developing server-side applications using Node.js. I have expertise in designing fast and scalable applications with its asynchronous programming model. I also have experience in API development and database connections.",
-            textNode: "I am proficient in creating user interfaces with React. I can design reusable and interactive UI components by utilizing its component-based architecture. My goal is to deliver performant and user-friendly experiences in modern web applications.",
+            items: [
+                {
+                    skillTitle: "Java Script",
+                    text: "I can effectively use JavaScript to create dynamic web pages and manage user interactions. I have experience building the core components of modern web applications with JavaScript.",
+                },
+                {
+                    skillTitle: "React.Js",
+                    text: "I am capable of developing server-side applications using Node.js. I have expertise in designing fast and scalable applications with its asynchronous programming model. I also have experience in API development and database connections.",
+                },
+                {
+                    skillTitle: "Node.Js",
+                    text: "I am proficient in creating user interfaces with React. I can design reusable and interactive UI components by utilizing its component-based architecture. My goal is to deliver performant and user-friendly experiences in modern web applications.",
+                }
+            ]
         },
         projects: {
-            title: "Projects",  
-            projectTitle: "Workintech",
-            projectTitle2: "Random Jokes",
-            projectTitle3: "Journey",
-            text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-            text2: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-            text3: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-            site: "View Site",
+            title: "Projects",
+            items: [
+                {
+                    projectTitle: "Workintech",
+                    text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    site: "View Site",
+                    imageSrc: "./src/images/workintech.png"
+                },
+                {
+                    projectTitle: "Random Jokes",
+                    text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    site: "View Site",
+                    imageSrc: "./src/images/randomjokes.png"
+                },
+                {
+                    projectTitle: "Journey",
+                    text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    site: "View Site",
+                    imageSrc: "./src/images/journey.png"
+                }
+            ]
         },
         footer: {
             title: "Let's work together on your next product",
@@ -68,34 +102,68 @@ export const languagesData = {
             gitHub: "Github",
             linkedin:"Linkedin", 
             },
-        profile:{
-            title: "Profil",
-            born: "Doğum tarihi",
-            city: "İkamet Şehri",
-            education: "Eğitim Durumu",
-            role: "Tercih Ettiği Rol",
-            aboutMe: "About Me",
-            bornText: "24.03.1996",
-            cityText: "Ankara",
-            educationText: "Hacettepe University, Biology Bachelor's Degree, 2016",
-            roleText: "Frontend, UI",
-            aboutMeText: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
-            },   
-          skills : {    
-            title: "Yetenekler",
-            textJs: "JavaScript'i etkin bir şekilde kullanabiliyorum. Dinamik web sayfaları oluşturmak ve kullanıcı etkileşimlerini yönetmek için bu dili kullanıyorum. JavaScript ile modern web uygulamalarının temel yapı taşlarını oluşturmakta deneyimliyim.",
-            textReact: "Node.js ile sunucu tarafında JavaScript uygulamaları geliştirebiliyorum. Asenkron programlama yapısıyla hızlı ve ölçeklenebilir uygulamalar tasarlamakta yetkinim. API geliştirme ve veri tabanı bağlantıları konusunda deneyimim var.",
-            textNode: "React ile kullanıcı arayüzleri oluşturmakta yetkinim. Bileşen tabanlı yapısını kullanarak yeniden kullanılabilir ve etkileşimli arayüz bileşenleri tasarlayabiliyorum. Modern web uygulamalarında performanslı ve kullanıcı dostu deneyimler sunmayı hedefliyorum.",          
+            profile: {
+                title: "Profil",
+                aboutMe: "Hakkımda",
+                aboutMeText: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+                items: [
+                    {
+                        profileTitle:"Doğum Tarihi",
+                        text:"24.03.1996"
+                    },
+                    {
+                        profileTitle:"İkamet Şehri",
+                        text:"Ankara"
+                    },
+                    {
+                        profileTitle:"Eğitim Durumu",
+                        text:"Hacettepe University, Biology Bachelor's Degree, 2016"
+                    },
+                    {
+                        profileTitle:"Tercih Ettiği Rol",
+                        text:"Frontend, UI"
+                    },
+                ]
             },
-            projects: {   
-            title: "Projeler",
-            projectTitle: "WorkinTech",
-            projectTitle2: "Rastgele şakalar",
-            projectTitle3: "Yolculuk",
-            text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
-            text2: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
-            text3: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
-            site: "Siteyi Göster",
+            skills: {
+                title: "Skills",
+                items: [
+                    {
+                        skillTitle: "Java Script",
+                        text: "JavaScript'i dinamik web sayfaları oluşturmak ve kullanıcı etkileşimlerini yönetmek için etkili bir şekilde kullanabilirim. JavaScript ile modern web uygulamalarının temel bileşenlerini oluşturma konusunda deneyimim var.",
+                    },
+                    {
+                        skillTitle: "React.Js",
+                        text: "Node.js kullanarak sunucu tarafında uygulamalar geliştirme kapasitesine sahibim. Asenkron programlama modeli ile hızlı ve ölçeklenebilir uygulamalar tasarlama konusunda uzmanlığım var. Ayrıca API geliştirme ve veritabanı bağlantıları konusunda deneyimim var.",
+                    },
+                    {
+                        skillTitle: "Node.Js",
+                        text: "React ile kullanıcı arayüzleri oluşturma konusunda yetkinim. Bileşen tabanlı mimarisinden yararlanarak yeniden kullanılabilir ve etkileşimli UI bileşenleri tasarlayabiliyorum. Amacım, modern web uygulamalarında performanslı ve kullanıcı dostu deneyimler sunmaktır.",
+                    }
+                ]
+            },
+            projects: {
+                title: "Projects",
+                items: [
+                    {
+                        projectTitle: "Workintech",
+                        text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+                        site: "View Site",
+                        imageSrc: "./src/images/workintech.png"
+                    },
+                    {
+                        projectTitle: "Random Jokes",
+                        text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+                        site: "View Site",
+                        imageSrc: "./src/images/randomjokes.png"
+                    },
+                    {
+                        projectTitle: "Journey",
+                        text: "Basit, özelleştirilebilir ve minimal bir kurulum sağlayan bu çerez eklentisi, kullanıcıların hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak kullanılabilir. Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+                        site: "View Site",
+                        imageSrc: "./src/images/journey.png"
+                    }
+                ]
             },
             footer: {
                 title: "Haydi bir sonraki projede beraber çalışalım.",
