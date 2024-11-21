@@ -23,7 +23,7 @@ export function Projects() {
                 <div className="w-full flex justify-between gap-5">
                     {projects.items.map((project, index) => (
                         <div key={index} className="w-1/5">
-                            <img src={project.imageSrc} alt={project.projectTitle} />
+                            <img src={project.imageSrc} />
                             <h3 className={projectTitle}>{project.projectTitle}</h3>
                             <p className={projectText}>{project.text}</p>
                             <div className="flex justify-between gap-1.5 w-7/12">
